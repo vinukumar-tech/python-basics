@@ -16,5 +16,6 @@ def AddInteger1(a , b):
     print(a+b)
 
 AddInteger1(4,2)
+print(AddInteger1(4,2))
 
 

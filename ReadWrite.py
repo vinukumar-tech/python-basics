@@ -1,0 +1,15 @@
+file = open("text.txt")
+
+print(file.read())
+print(file.read(3))
+
+print(file.readline())
+print(file.readline())
+
+#
+line = file.readline()
+while line !="":
+    print(line)
+    line =file.readline()
+
+file.close()

@@ -7,9 +7,13 @@ print(file.readline())
 print(file.readline())
 
 #
-line = file.readline()
-while line !="":
+# line = file.readline()
+# while line !="":
+#     print(line)
+#     line =file.readline()
+
+for line in file.readlines():
     print(line)
-    line =file.readline()
+
 
 file.close()
